@@ -1,9 +1,11 @@
+import FeaturedThumbnail from "../components/FeaturedThumbnail"
 import Navbar from "../components/Navbar"
 
 export default function Home(){
   return (
-    <div className="bg-gradient-to-b from-gray-600 to bg-gray-900 min-h-screen px-40 text-white">
+    <div className="bg-gradient-to-b from-gray-600 to bg-gray-900 min-h-screen px-64 text-white">
       <Navbar />
+      <FeaturedThumbnail />
     </div>
   )
 }
