@@ -5,7 +5,7 @@ import Search from './Search';
 
 export default function Navbar(){
     return(
-        <nav className="py-10">
+        <nav className="pb-10">
             <div className="container mx-auto">
                 <div className="flex items-center">
                 <Logo />

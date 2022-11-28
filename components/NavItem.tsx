@@ -6,13 +6,13 @@ export default function NavItem(){
     return(
         <ul className="space-x-10 flex items-center">
             <li><a href="#" className="hover:underline">UI Design</a></li>
-            <li><a href="#" className="hover:underline">Fron-end</a></li>
+            <li><a href="#" className="hover:underline">Front-end</a></li>
             <li><a href="#" className="hover:underline">Back-end</a></li>
             <li className="relative hover:underline">
                 <a
-                href="#"
-                className="cursor-pointer flex items-center"
-                onClick={() => setDropdown(!dropdown)}
+                    href="#"
+                    className="cursor-pointer flex items-center"
+                    onClick={() => setDropdown(!dropdown)}
                 >
                 Lainnya
                 <svg className="ml-2" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
