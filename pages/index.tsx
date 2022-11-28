@@ -1,10 +1,7 @@
 import FeaturedThumbnail from "../components/FeaturedThumbnail"
+import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
-import Paragraph from "../components/Paragraph"
-import PostCard from "../components/PostCard"
 import Posts from "../components/Posts"
-import Profile from "../components/Profile"
-import SubParagraph from "../components/SubParagraph"
 
 export default function Home(){
   return (
@@ -12,12 +9,7 @@ export default function Home(){
       <Navbar />
       <FeaturedThumbnail />
       <Posts />
-      <footer className="pt-16 pb-2 text-center">
-        <SubParagraph
-          content="Copyright (c) 2021 - Design By Nauval."
-          needOpacity={true}
-        />
-      </footer>
+      <Footer />
     </div>
   )
 }
