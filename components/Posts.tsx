@@ -3,7 +3,7 @@ import PostCard from "./PostCard";
 export default function Posts(){
     return(
         <div className="flex mt-16 flex-wrap">
-            <div className="w-4/12 pr-4">
+            <div className="md:w-4/12 w-full px-4">
                 <PostCard
                     thumbnail="../thumbnail-2.png"
                     dateContent="INTERNET • May 20, 2021"
@@ -14,7 +14,7 @@ export default function Posts(){
                     authorJob="UI Designer"
                 />
             </div>
-            <div className="w-4/12 pr-4">
+            <div className="md:w-4/12 w-full px-4 md:mt-0 mt-14">
                 <PostCard
                     thumbnail="../thumbnail-3.png"
                     dateContent="9TO5 • June 22, 2021"
@@ -25,7 +25,7 @@ export default function Posts(){
                     authorJob="Entrepreneur"
                 />
             </div>
-            <div className="w-4/12 pr-4">
+            <div className="md:w-4/12 w-full px-4 md:mt-0 mt-14">
                 <PostCard
                     thumbnail="../thumbnail-4.png"
                     dateContent="INSPIRATION • June 18, 2021"
@@ -36,7 +36,7 @@ export default function Posts(){
                     authorJob="Front-End Engineer"
                 />
             </div>
-            <div className="w-4/12 pr-4 mt-14">
+            <div className="md:w-4/12 w-full px-4 mt-14">
                 <PostCard
                     thumbnail="../thumbnail-3.png"
                     dateContent="9TO5 • June 22, 2021"
@@ -47,7 +47,7 @@ export default function Posts(){
                     authorJob="Entrepreneur"
                 />
             </div>
-            <div className="w-4/12 pr-4 mt-14">
+            <div className="md:w-4/12 w-full px-4 mt-14">
                 <PostCard
                     thumbnail="../thumbnail-4.png"
                     dateContent="INSPIRATION • June 18, 2021"
@@ -58,7 +58,7 @@ export default function Posts(){
                     authorJob="Front-End Engineer"
                 />
             </div>
-            <div className="w-4/12 pr-4 mt-14">
+            <div className="md:w-4/12 w-full px-4 mt-14">
                 <PostCard
                     thumbnail="../thumbnail-2.png"
                     dateContent="INTERNET • May 20, 2021"
